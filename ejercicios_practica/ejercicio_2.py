@@ -9,6 +9,7 @@
 
 # Ejercicios con funciones
 
+
 def promedio(numeros):
     print("Funcion promedio")
     resultado = 0
@@ -39,7 +40,6 @@ def promedio(numeros):
 
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
-    
     numeros = [2, 4, 6, 8, 10, 12]
 
     # Alumno: Complete la función "promedio"
@@ -51,5 +51,5 @@ if __name__ == '__main__':
     # print(....)
 
     print (resultado_promedio)
-    
+
     print("terminamos")

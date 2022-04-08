@@ -14,14 +14,12 @@
 # el nombre de tres invitados
 # def generar_invitados():
 
-def  generar_invitados():
+
+def generar_invitados():
 
     nombres_invitados = []
-
     cantidad_invitados = 3
-    
     for i in range(cantidad_invitados):
-             
         invitado = str(input("Ingrese Nombre de los invitados:"))
 
         nombres_invitados.append(invitado)
@@ -29,10 +27,8 @@ def  generar_invitados():
     return nombres_invitados
 # --------------------------------
 
-
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
-    
     # Alumno: Crear la función "generar_invitados"
 
     # Dentro de esa función el sistema deberá solicitar

@@ -13,14 +13,13 @@
 # Aquí copiar la función "generar_invitados"
 # ya elaborada
 
-def  generar_invitados():
+
+def generar_invitados():
 
     nombres_invitados = []
-
     cantidad_invitados = 3
-    
+
     for i in range(cantidad_invitados):
-             
         invitado = str(input("Ingrese Nombre de los invitados:"))
 
         nombres_invitados.append(invitado)
@@ -32,6 +31,7 @@ def  generar_invitados():
 # --------------------------------
 # Aquí copiar la función "ordenar"
 # ya elaborada
+
 
 def ordenar(lista):
     return sorted(lista)
